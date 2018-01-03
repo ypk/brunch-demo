@@ -1,0 +1,40 @@
+{
+  "name": "tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.0.0-beta.3",
+    "brunch": "^2.10.12",
+    "cssnano-brunch": "^1.1.8",
+    "eslint-brunch": "^3.12.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jquery": "^3.2.1",
+    "micro-es7-shim": "^0.1.0",
+    "popper.js": "^1.12.9",
+    "postcss-brunch": "^2.1.0",
+    "sass-brunch": "^2.10.4",
+    "sass-lint-brunch": "^1.1.0",
+    "standard": "^10.0.3",
+    "tether": "^1.4.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
